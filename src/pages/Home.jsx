@@ -47,7 +47,7 @@ const Home = () => {
 
   const [islandScale, islandPosition, islandRotation] =
     adjustIslandForScreenSize();
-  const [planeScale, planePosition] = adjustIslandForScreenSize();
+  const [planeScale, planePosition] = adjustPlaneForScreenSize();
 
   return (
     <section className="w-full h-screen relative">
