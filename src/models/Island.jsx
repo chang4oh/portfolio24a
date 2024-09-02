@@ -31,6 +31,7 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
     setIsRotating(true);
 
     const clientX = event.touches ? event.touches[0].clientX : e.clientX;
+    lastX.current = clientX;
   };
 
   const handlePointerUp = (e) => {
