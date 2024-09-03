@@ -20,7 +20,7 @@ const renderContent = {
     >
       Hi, I am
       <span className="font-semibold"> Chang</span>👋 A Software Developer from
-      Texas
+      Round Rock
     </h1>
   ),
   2: (
