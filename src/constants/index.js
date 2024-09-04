@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, tesla, acc, headstarter, dell } from "../assets/images";
 import {
     car,
     contact,
@@ -33,11 +33,6 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
-    {
         imageUrl: git,
         name: "Git",
         type: "Version Control",
@@ -57,11 +52,7 @@ export const skills = [
         name: "JavaScript",
         type: "Frontend",
     },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
+
     {
         imageUrl: motion,
         name: "Motion",
@@ -88,16 +79,6 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
@@ -107,9 +88,83 @@ export const skills = [
         name: "TypeScript",
         type: "Frontend",
     }
+    /*
+        {
+        imageUrl: express,
+        name: "Express",
+        type: "Backend",
+    },
+        {
+        imageUrl: mongodb,
+        name: "MongoDB",
+        type: "Database",
+    },
+        {
+        imageUrl: redux,
+        name: "Redux",
+        type: "State Management",
+    },
+    {
+        imageUrl: sass,
+        name: "Sass",
+        type: "Frontend",
+    },
+
+    */
 ];
 
 export const experiences = [
+
+    {
+        title: "ACC GROW Associate I: HyFlex Navigator Assistant I",
+        company_name: "Austin Community College",
+        icon: acc,
+        iconBg: "#ac3ec9",
+        date: "September 2024 - Present",
+        points: [
+            'Supported HyFlex Teaching Sessions: Assisted faculty with in-class technology setup and management for seamless in-person and online learning via Zoom and Google Meet',
+            'Developed Tailored Support Plans: Collaborated with faculty to create customized technology support strategies for each class session',
+            'Resolved Technical Issues: Provided real-time troubleshooting and problem-solving for classroom technology during live sessions',
+        ],
+    },
+    {
+        title: "Software Engineering Fellow",
+        company_name: "Headstarter",
+        icon: headstarter,
+        iconBg: "#3bdab2",
+        date: "July 2024 - September 2024",
+        points: [
+            'Built and deployed 7 web projects in 5 weeks using React JS, Next.js, Firebase, Clerk, and Vercel, following agile methodologies with weekly sprints and incorporated CI/CD practices for iterative deployment',
+            'Worked in a team of 4 to develop an interactive customer support agent using Next.js, integrated a custom RAG pipeline using OpenAI and Pinecone that responds based on a company\'s knowledge base',
+            'Developed a personal website using HTML, CSS, enhancing user engagement with over 60 unique visitors within the first month',
+        ],
+    },
+    {
+        title: "Develop with Dell",
+        company_name: "Dell",
+        icon: dell,
+        iconBg: "#4b8ad6",
+        date: "May 2024 - July 2024",
+        points: [
+            'Enhanced communication skills by engaging in over 60 Rainmakers tech support roleplay sessions',
+            'Participated in 8 hours of professional development focusing on brand building and corporate culture',
+            'Completed 30 hours of on-demand learning in networking and technical support',
+        ],
+    },
+    {
+        title: "Excel with Dell",
+        company_name: "Dell",
+        icon: dell,
+        iconBg: "#4b8ad6",
+        date: "January 2024 - April 2024",
+        points: [
+            'Collaborated with a group of six peers to establish and pursue personal career goals',
+            'Expanded professional network by engaging with 24 Dell experts, enriching knowledge on effective teamwork and time management',
+            'Acquired foundational knowledge in AI and software engineering to strategically align career objectives',
+        ],
+    },
+
+    /*
     {
         title: "React.js Developer",
         company_name: "Starbucks",
@@ -162,6 +217,7 @@ export const experiences = [
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
+    */
 ];
 
 export const socialLinks = [

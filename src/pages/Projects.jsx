@@ -15,11 +15,14 @@ const Projects = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          I've embarked on numerous projects throughout the years, but these are
-          the ones I hold closest to my heart. Many of them are open-source, if
-          you come across something that piques your interest, feel free to
-          explore the codebase and contribute your ideas for further
-          enhancements. Your collaboration is highly valued!
+        Over the years, I’ve embarked on a diverse array of projects, 
+        each one shaping my expertise and passion for technology. 
+        From pioneering machine learning models for predicting customer 
+        behavior to crafting interactive web applications and immersive portfolios, 
+        I’ve continuously pushed the boundaries of innovation. 
+        Many of these projects are open-source, so if something sparks your interest, 
+        dive into the codebase and contribute your insights—your 
+        collaboration is always welcome and valued!
         </p>
       </div>
 
