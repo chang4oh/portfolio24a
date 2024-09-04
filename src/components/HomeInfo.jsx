@@ -20,7 +20,8 @@ const renderContent = {
     >
       Hi, I am
       <span className="font-semibold"> Chang</span>👋 A Software Developer from
-      Round Rock
+      Round Rock. <br /> 
+      Rotate Island w/ Mouse or Arrow
     </h1>
   ),
   2: (

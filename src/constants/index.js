@@ -114,7 +114,7 @@ export const skills = [
 ];
 
 export const experiences = [
-
+    /*
     {
         title: "ACC GROW Associate I: HyFlex Navigator Assistant I",
         company_name: "Austin Community College",
@@ -127,6 +127,7 @@ export const experiences = [
             'Resolved Technical Issues: Provided real-time troubleshooting and problem-solving for classroom technology during live sessions',
         ],
     },
+    */
     {
         title: "Software Engineering Fellow",
         company_name: "Headstarter",
