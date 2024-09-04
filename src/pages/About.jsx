@@ -22,8 +22,7 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Software Developer based in Round Rock, specializing in technical
-          education through hands-on learning and building applications.
+        Software Developer in Round Rock, specializing in AI and web applications with a focus on hands-on learning and innovation.
         </p>
       </div>
 
