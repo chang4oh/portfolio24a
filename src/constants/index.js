@@ -23,7 +23,7 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
 } from "../assets/icons";
 
 export const skills = [
@@ -242,31 +242,32 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Wardrobe Assistant AI',
+        description: 'Developed the Wardrobe Assistant AI, a web application that streamlines your morning routine by recommending daily clothing combinations using OpenAI for outfit suggestions, Supabase for managing user-uploaded items, and Stripe API for subscription management',
+        link: 'https://github.com/MohammedNabil99/Wardrobe-Assistant',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: '3D Animated Portfolio',
+        description: 'Developed a modern web portfolio with a 3D animated scene featuring interactive elements like a fox\'s island and plane, and integrated EmailJS for collaboration requests',
+        link: 'https://github.com/chang4oh/portfolio24a',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'AI Complaint Categorizer',
+        description: 'Developed the AI Complaint Categorizer for a hackathon, utilizing a RAG pipeline to categorize customer complaints. Integrated vector embeddings with Pinecone, employed OpenAI for AI-driven analysis, and used Hugging Face for image text recognition, securing 4th place among over 100 entries',
+        link: 'https://github.com/Anvesh8712/complaint-categoriser',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Cognitive Cards',
+        description: 'Developed an advanced flashcard application, Cognitive Cards, utilizing OpenAI for AI-driven virtual assistance and prompt engineering to personalize learning. Integrated Supabase to manage and store flashcards efficiently and employed Stripe API for seamless subscription management and billing',
+        link: 'https://github.com/Farbubby/cognitive-cards',
     },
+    /*
     {
         iconUrl: estate,
         theme: 'btn-back-black',
@@ -281,4 +282,5 @@ export const projects = [
         description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
         link: 'https://github.com/adrianhajdin/project_ai_summarizer',
     }
+        */
 ];
