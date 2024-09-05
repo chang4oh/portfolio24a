@@ -129,6 +129,19 @@ export const experiences = [
         */
             ],
     },
+
+    {
+        title: "ACC ACM chapter Computer Science - Machine Learning - Leadership",
+        company_name: "Austin Community College",
+        icon: acc,
+        iconBg: "#ac3ec9",
+        date: "January 2024 - Present",
+        points: [
+            'Founded and expanded a machine learning club, achieving a 50% increase in membership within three months',
+            'Led weekly sessions for 30 students, promoting collaborative learning and leadership skills',
+            'Managed organizational schedules and spearheaded the creation of ML documentation to enhance club operations',
+            ],
+    },
     
     {
         title: "Software Engineering Fellow",
@@ -142,6 +155,7 @@ export const experiences = [
             'Developed a personal website using HTML, CSS, enhancing user engagement with over 60 unique visitors within the first month',
         ],
     },
+
     {
         title: "Develop with Dell",
         company_name: "Dell",
@@ -154,6 +168,7 @@ export const experiences = [
             'Completed 30 hours of on-demand learning in networking and technical support',
         ],
     },
+    
     {
         title: "Excel with Dell",
         company_name: "Dell",
