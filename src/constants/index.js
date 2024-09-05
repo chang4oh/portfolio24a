@@ -114,7 +114,7 @@ export const skills = [
 ];
 
 export const experiences = [
-    /*
+    
     {
         title: "ACC GROW Associate I: HyFlex Navigator Assistant I",
         company_name: "Austin Community College",
@@ -122,12 +122,14 @@ export const experiences = [
         iconBg: "#ac3ec9",
         date: "September 2024 - Present",
         points: [
+            /*
             'Supported HyFlex Teaching Sessions: Assisted faculty with in-class technology setup and management for seamless in-person and online learning via Zoom and Google Meet',
             'Developed Tailored Support Plans: Collaborated with faculty to create customized technology support strategies for each class session',
             'Resolved Technical Issues: Provided real-time troubleshooting and problem-solving for classroom technology during live sessions',
-        ],
+        */
+            ],
     },
-    */
+    
     {
         title: "Software Engineering Fellow",
         company_name: "Headstarter",
