@@ -19,8 +19,7 @@ const renderContent = {
   neo-brutalism-blue py-4 px-8 text-white mx-5"
     >
       Hi, I am
-      <span className="font-semibold"> Chang</span>👋 A Software Developer from
-      Round Rock. <br /> 
+      <span className="font-semibold"> Chang</span>👋 passionate in AI and Software <br /> 
       Rotate Island w/ Mouse or Arrow
     </h1>
   ),
